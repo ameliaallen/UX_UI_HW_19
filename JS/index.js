@@ -1,5 +1,5 @@
 // Change a color
 $(".workButton").on("click", function(){
-    $(this).toggleClass(".activeButton");
+    $(this).toggleClass("activeButton");
     console.log("IT WORKED");
 });
