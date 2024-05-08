@@ -1,0 +1,358 @@
+header {
+    background-color: #165260;
+    height: 100px;
+}
+
+.main {
+    background-color: #165260;
+    height: auto;
+}
+
+.hi {
+    background-color: #165260;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    padding: 80px;
+}
+
+/* this is making things weird so I went back to using grids*/
+.flexContainer {
+    background-color: #165260;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 33% 33% 33%;
+    margin: 0px;
+    padding: 80px;
+}
+.work {
+    background-color: #165260;
+    height: auto;
+}
+.skills {
+    background-color: #165260;
+    height: auto;
+}
+.myWork {
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.workTitle {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: reg;
+    font-style: normal;
+    color: white;
+    padding: 80px;
+    
+}
+
+.mySkills {
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.skillsTitle {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: reg;
+    font-style: normal;
+    color: white;
+    background-color: #165260;
+    padding-left: 80px;
+    padding-top: 100px;
+}
+
+footer {
+    background-color: #165260;
+    height: 180px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBarTop {
+    justify-content: right;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.navBarTopUl {
+    justify-content: flex-end;
+    
+
+}
+
+.navBarTopLi {
+    display: inline-block;
+    justify-content: flex-end;
+    margin: 15px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: 20;
+  font-weight: reg;
+  font-style: normal;
+    
+}
+
+.navBarTopLi a {
+    color: white;
+    text-decoration: none;
+}
+
+.navBarTopLi a:hover {
+    color: white;
+    text-decoration-line: underline;
+   
+}
+
+
+
+.mainGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    padding: 80px;
+}
+
+.navGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-gap: 80px;
+    padding: 80px;
+    grid-template-areas: 
+    "navBarTopLi" "naveBarTopLi" "naveBarTopLi" "naveBarTopLi" "naveBarTopLi";
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px;
+    grid-template-areas: 
+    "myWork"
+    "myWork"
+    "myWork";
+    align-items: center;
+    justify-items: center;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .workGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    padding-left: 5px;
+    align-items: center;
+    justify-items: center;
+    }
+}
+
+.info {
+    background-color:#165260;
+    color: white;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: 20px;
+  font-weight: reg;
+  font-style: normal;
+  padding: 50px;
+    
+}
+
+.myName {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: 24px;
+  font-weight: bold;
+  font-style: normal;
+    color: white;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.h1 {
+    font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: reg;
+  font-style: normal;
+    color: white;
+}
+
+.h2 {
+    font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: reg;
+  font-style: normal;
+    color: white;
+}
+
+.h2black {
+    font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: reg;
+  font-style: normal;
+    color: black;
+}
+
+.p {
+    font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: reg;
+  font-style: normal;
+    color: white;
+}
+
+.pBlack {
+    font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: reg;
+  font-style: normal;
+    color: black;
+}
+
+.connect {
+    color: white;
+    font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: reg;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+.seeAll a {
+    background-color: #165260;
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+  font-size: 28px;
+  font-weight: reg;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+.seeAll a:hover {
+    color: white;
+    text-decoration-line: underline;
+}
+
+.footerInfoUl {
+    display: flex;
+    justify-content: center;
+}
+
+.footerInfoLi {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 20px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: 20;
+  font-weight: reg;
+  font-style: normal;
+}
+.footerInfoLi a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerInfoLi a:hover {
+    color: white;
+    text-decoration-line: underline;
+   
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 20px;
+    font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: reg;
+  font-style: normal;
+  color: white;
+  background-color:#165260;
+  height: 60px;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button {
+    width: 100px;
+    height: 40px;
+    justify-self: center;
+    background-color: #50B69E;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: 20;
+  font-weight: reg;
+  font-style: normal;
+  margin: 20px;
+}
+.workButton {
+    width: 100px;
+    height: 40px;
+    justify-self: center;
+    background-color: #50B69E;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+    margin-left: 114px;
+  font-optical-sizing: 20;
+  font-weight: reg;
+  font-style: normal;
+  
+}
+/* this was a test to get the jQuery 
+.workButton:hover {
+    width: 100px;
+    height: 40px;
+    justify-self: center;
+    background-color: #EFE56C;
+    color: #165260;
+    border: 0px;
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+    margin-left: 114px;
+  font-optical-sizing: 20;
+  font-weight: reg;
+  font-style: normal;
+} */
+
+.activeButton {
+    width: 100px;
+    height: 40px;
+    justify-self: center;
+    background-color: #EFE56C;
+    color: #165260;
+    border: 0px;
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+    margin-left: 114px;
+  font-optical-sizing: 20;
+  font-weight: reg;
+  font-style: normal;
+}
