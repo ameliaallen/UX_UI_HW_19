@@ -102,9 +102,9 @@ footer {
     justify-content: flex-end;
     margin: 15px;
     font-family: "Inter", sans-serif;
-  font-optical-sizing: 20;
-  font-weight: reg;
-  font-style: normal;
+    font-optical-sizing: 20;
+    font-weight: reg;
+    font-style: normal;
     
 }
 
@@ -170,18 +170,18 @@ footer {
     background-color:#165260;
     color: white;
     font-family: "Inter", sans-serif;
-  font-optical-sizing: 20px;
-  font-weight: reg;
-  font-style: normal;
-  padding: 50px;
+    font-optical-sizing: 20px;
+    font-weight: reg;
+    font-style: normal;
+    padding: 50px;
     
 }
 
 .myName {
     font-family: "Inter", sans-serif;
-  font-optical-sizing: 24px;
-  font-weight: bold;
-  font-style: normal;
+    font-optical-sizing: 24px;
+    font-weight: bold;
+    font-style: normal;
     color: white;
     align-items: center;
     padding: 15px 0px;
@@ -189,67 +189,67 @@ footer {
 
 .h1 {
     font-family: "Inter", sans-serif;
-  font-size: 48px;
-  font-weight: reg;
-  font-style: normal;
+    font-size: 48px;
+    font-weight: reg;
+    font-style: normal;
     color: white;
 }
 
 .h2 {
     font-family: "Inter", sans-serif;
-  font-size: 32px;
-  font-weight: reg;
-  font-style: normal;
+    font-size: 32px;
+    font-weight: reg;
+    font-style: normal;
     color: white;
 }
 
 .h2black {
     font-family: "Inter", sans-serif;
-  font-size: 32px;
-  font-weight: reg;
-  font-style: normal;
+    font-size: 32px;
+    font-weight: reg;
+    font-style: normal;
     color: black;
 }
 
 .p {
     font-family: "Inter", sans-serif;
-  font-size: 20px;
-  font-weight: reg;
-  font-style: normal;
+    font-size: 20px;
+    font-weight: reg;
+    font-style: normal;
     color: white;
 }
 
 .pBlack {
     font-family: "Inter", sans-serif;
-  font-size: 20px;
-  font-weight: reg;
-  font-style: normal;
+    font-size: 20px;
+    font-weight: reg;
+    font-style: normal;
     color: black;
 }
 
 .connect {
     color: white;
     font-family: "Inter", sans-serif;
-  font-size: 28px;
-  font-weight: reg;
-  font-style: normal;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 80px;
+    font-size: 28px;
+    font-weight: reg;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
 }
 .seeAll a {
     background-color: #165260;
     color: white;
     font-family: "Inter", sans-serif;
     text-decoration: none;
-  font-size: 28px;
-  font-weight: reg;
-  font-style: normal;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 80px;
+    font-size: 28px;
+    font-weight: reg;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
 }
 .seeAll a:hover {
     color: white;
@@ -267,9 +267,9 @@ footer {
     text-decoration: none;
     margin: 20px;
     font-family: "Inter", sans-serif;
-  font-optical-sizing: 20;
-  font-weight: reg;
-  font-style: normal;
+    font-optical-sizing: 20;
+    font-weight: reg;
+    font-style: normal;
 }
 .footerInfoLi a {
     color: white;
@@ -288,13 +288,13 @@ footer {
     text-decoration: none;
     margin: 20px;
     font-family: "Inter", sans-serif;
-  font-size: 12px;
-  font-weight: reg;
-  font-style: normal;
-  color: white;
-  background-color:#165260;
-  height: 60px;
-  margin: 0;
+    font-size: 12px;
+    font-weight: reg;
+    font-style: normal;
+    color: white;
+     background-color:#165260;
+     height: 60px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -307,10 +307,10 @@ button {
     border: 0px;
     border-radius: 4px;
     font-family: "Inter", sans-serif;
-  font-optical-sizing: 20;
-  font-weight: reg;
-  font-style: normal;
-  margin: 20px;
+    font-optical-sizing: 20;
+    font-weight: reg;
+    font-style: normal;
+    margin: 20px;
 }
 .workButton {
     width: 100px;
