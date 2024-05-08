@@ -321,9 +321,9 @@ button {
     border-radius: 4px;
     font-family: "Inter", sans-serif;
     margin-left: 114px;
-  font-optical-sizing: 20;
-  font-weight: reg;
-  font-style: normal;
+    font-optical-sizing: 20;
+    /* font-weight: reg; */
+    font-style: normal;
   
 }
 /* this was a test to get the jQuery 
@@ -352,7 +352,7 @@ button {
     border-radius: 4px;
     font-family: "Inter", sans-serif;
     margin-left: 114px;
-  font-optical-sizing: 20;
-  font-weight: reg;
-  font-style: normal;
+    font-optical-sizing: 20;
+    /* font-weight: reg; */
+    font-style: normal;
 }
